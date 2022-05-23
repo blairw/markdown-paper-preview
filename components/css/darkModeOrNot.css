@@ -1,0 +1,35 @@
+body.isLightMode {
+	background-color: lightgray;
+    color: black;
+}
+
+body.isDarkMode {
+	background-color: rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
+}
+
+.isLightMode #MainContainer {
+	background-color: white;
+}
+
+.isDarkMode #MainContainer {
+	background-color: rgb(28, 28, 28);
+}
+
+.isLightMode #MainTitle {
+	color: lightgray;
+}
+
+.isDarkMode #MainTitle {
+	color: rgb(67, 67, 67);
+}
+
+.isLightMode a,
+.isLightMode a:visited {
+	color: #004cff;
+}
+
+.isDarkMode a,
+.isDarkMode a:visited {
+	color: #759fff;
+}

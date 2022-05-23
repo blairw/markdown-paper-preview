@@ -1,14 +1,20 @@
 # markdown-paper-preview
 Generate a HTML preview of a paper written in Markdown
 
-## Screenshot
-
-![Screenshot](docs/screenshot.png)
-
 ## Dependencies
 
 - pandoc
 - yarn (only if you need to update jQuery / add other dependencies)
+
+## Screenshots
+
+### Light Mode
+
+![Screenshot - Light Mode](docs/lightMode.png)
+
+### Dark Mode
+
+![Screenshot - Dark Mode](docs/darkMode.png)
 
 ## See also
 
