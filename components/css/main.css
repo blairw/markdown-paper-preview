@@ -2,7 +2,6 @@ body {
 	font-family: 'Lucida Grande', sans-serif;
 	font-size: 10pt;
 	line-height: 150%;
-	background-color: lightgray;
 	padding: 0px;
 	margin: 0;
 }
@@ -14,7 +13,6 @@ body {
 }
 
 #MainTitle {
-	color: lightgray;
 	text-align: center;
 	font-size: 200%;
 	font-weight: bold;
@@ -30,11 +28,6 @@ body {
 h1 {
 	margin-top: 5rem;
 	line-height: 100%;
-}
-
-a,
-a:visited {
-	color: #004cff;
 }
 
 figure > img {
