@@ -36,6 +36,7 @@ figure > img {
 
 table th, td {
 	padding: 0.5rem;
+	vertical-align: top;
 }
 
 tr.odd {
