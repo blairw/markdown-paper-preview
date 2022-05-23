@@ -1,3 +1,9 @@
+#MainContainer>ul:first-of-type {
+    font-size: 9pt;
+    line-height: 13pt;
+    font-family: 'Tahoma', sans-serif;
+}
+
 @media screen and (max-width: 900px) {
     #MainContainer>ul:first-of-type {
         display: none;
@@ -7,7 +13,6 @@
 @media screen and (min-width: 900px) {
     #MainContainer>ul:first-of-type {
         list-style: none;
-        font-family: 'Tahoma', sans-serif;
 
         display: block;
         position: fixed;
@@ -70,3 +75,4 @@
         background-color: rgb(255, 239, 121);
     }
 }
+
