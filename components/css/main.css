@@ -39,18 +39,6 @@ table th, td {
 	vertical-align: top;
 }
 
-tr.odd {
-	background-color: rgb(245,245,245);
-}
-
-tr.even {
-	background-color: rgb(230,230,230);
-}
-
-tr.header {
-	background-color: black;
-	color: white;
-}
 
 #L3_buttons {
 	position: fixed;

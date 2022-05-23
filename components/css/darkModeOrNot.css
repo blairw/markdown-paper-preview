@@ -33,3 +33,33 @@ body.isDarkMode {
 .isDarkMode a:visited {
 	color: #759fff;
 }
+
+
+
+
+/*
+	Tables
+*/
+
+.isLightMode tr.odd {
+	background-color: rgb(245,245,245);
+}
+.isLightMode tr.even {
+	background-color: rgb(230,230,230);
+}
+.isLightMode tr.header {
+	background-color: black;
+	color: white;
+}
+
+.isDarkMode tr.odd {
+	background-color: rgb(60, 60, 60);
+}
+.isDarkMode tr.even {
+	background-color: rgb(72, 72, 72);
+}
+.isDarkMode tr.header {
+	color: white;
+	background-color: rgb(100, 100, 100);
+}
+
