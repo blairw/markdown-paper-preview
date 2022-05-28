@@ -27,7 +27,7 @@ echo "</script>" >> $OUTPUT_FILE
 
 # Generate the rest
 cat ../components/html/20-header2.html >> $OUTPUT_FILE
-pandoc paper.md --toc -s -o temp.md
+pandoc paper.md --toc --toc-depth 3 --wrap=none -s -o temp.md
 pandoc temp.md \
     >> $OUTPUT_FILE
 cat ../components/html/99-footer.html >> $OUTPUT_FILE
