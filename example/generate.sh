@@ -10,11 +10,15 @@ OUTPUT_FILE="./paper.html"
 # Begin generating
 cat ../components/html/01-header.html > $OUTPUT_FILE
 
+# Title
+echo "<title>Example Paper Preview</title>" >> $OUTPUT_FILE
+
 # Embed CSS
 echo "<style>" >> $OUTPUT_FILE
 cat ../components/css/*.css >> $OUTPUT_FILE
 echo "</style>" >> $OUTPUT_FILE
 
+# Embed JS
 echo "<script>" >> $OUTPUT_FILE
 cat ../node_modules/jquery/dist/jquery.min.js >> $OUTPUT_FILE
 echo >> $OUTPUT_FILE
