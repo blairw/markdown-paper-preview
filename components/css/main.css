@@ -30,6 +30,11 @@ h1 {
 	line-height: 100%;
 }
 
+h2 {
+	margin-top: 3rem;
+	line-height: 100%;
+}
+
 figure > img {
 	max-width: 100%;
 }
