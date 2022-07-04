@@ -47,13 +47,13 @@
 
     #MainContainer>ul:first-of-type>li>ul>li:before {
         content: "■";
-        color: white;
+        color: #aaa;
         padding-right: 5px;
     }
 
     #MainContainer>ul:first-of-type>li>ul>li>ul>li:before {
         content: "—";
-        color: white;
+        color: #aaa;
         padding-right: 5px;
     }
 
@@ -62,11 +62,11 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        color: white;
+        color: #aaa;
     }
 
     #MainContainer>ul:first-of-type a {
-        color: white;
+        color: #aaa;
         text-decoration: none;
     }
 
